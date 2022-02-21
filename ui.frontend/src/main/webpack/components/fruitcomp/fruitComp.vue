@@ -28,6 +28,7 @@
 
 <script>
 import axios from "axios";
+require("./style.scss");
 
 export default {
   name: "fruitComp",

@@ -57,6 +57,8 @@ import { faker } from "@faker-js/faker";
 import Comment from "./Comment.vue";
 import SmallProduct from "./smallProduct.vue";
 
+require("./style.scss");
+
 function randNum(min, max) {
   return faker.datatype.number({ min, max });
 }

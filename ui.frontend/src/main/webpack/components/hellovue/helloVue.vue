@@ -6,6 +6,8 @@
 </template>
 
 <script>
+require("./style.scss");
+
 export default {
   name: "HelloVue",
   props: {
