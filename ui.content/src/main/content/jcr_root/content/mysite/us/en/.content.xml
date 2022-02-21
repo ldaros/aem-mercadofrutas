@@ -1,83 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:primaryType="cq:Page">
-    <jcr:content
-        pageTitle="My Site Vue"
-        jcr:primaryType="cq:PageContent"
-        jcr:title="en"
-        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
-        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:template="/conf/mysite/settings/wcm/templates/page-content"
-        sling:resourceType="mysite/components/page"
-    >
-        <root
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="mysite/components/container"
-            layout="responsiveGrid">
-            <container
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="mysite/components/container">
-                <title
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="mysite/components/title"/>
-                <container
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="mysite/components/container"
-                    layout="responsiveGrid">
-                    <teaser
-                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Epic Journey"
-                        sling:resourceType="mysite/components/teaser"
-                        actionsEnabled="false"
-                        descriptionFromPage="false"
-                        textIsRich="true"
-                        titleFromPage="false">
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="cq:Page">
+    <jcr:content cq:contextHubPath="/etc/cloudsettings/default/contexthub" cq:contextHubSegmentsPath="/etc/segmentation/contexthub" cq:lastModified="{Date}2022-02-18T22:38:43.847-03:00" cq:lastModifiedBy="admin" cq:template="/conf/mysite/settings/wcm/templates/page-content" jcr:primaryType="cq:PageContent" jcr:title="en" sling:resourceType="mysite/components/page" pageTitle="My Site Vue">
+        <root jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/container" layout="responsiveGrid">
+            <container jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/container">
+                <title jcr:lastModified="{Date}2022-02-18T14:05:52.728-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" jcr:title="Mercado Frutas" sling:resourceType="mysite/components/title" />
+                <container jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/container" layout="responsiveGrid">
+                    <image jcr:created="{Date}2022-02-18T20:28:35.351-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-18T20:59:09.917-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/image" altValueFromDAM="true" displayPopupTitle="true" fileReference="/content/dam/mysite/banner_carnaval.png" isDecorative="false" titleValueFromDAM="true" />
+                    <title jcr:created="{Date}2022-02-18T21:15:53.721-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-18T21:16:21.301-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" jcr:title="Confira" sling:resourceType="mysite/components/title" type="h2" />
+                    <container jcr:created="{Date}2022-02-18T21:02:25.132-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-18T21:02:48.383-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/container" layout="responsiveGrid">
+                        <container jcr:created="{Date}2022-02-18T21:02:35.659-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-18T21:14:42.833-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/container" accessibilityLabel="discovery" layout="responsiveGrid">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default jcr:primaryType="nt:unstructured" offset="0" width="6" />
+                                <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
+                            </cq:responsive>
+                            <container jcr:created="{Date}2022-02-18T21:10:41.835-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-18T21:10:41.835-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/container">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default jcr:primaryType="nt:unstructured" offset="0" width="4" />
+                                    <phone jcr:primaryType="nt:unstructured" offset="0" width="8" />
+                                </cq:responsive>
+                                <title jcr:created="{Date}2022-02-18T21:03:47.199-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-18T21:09:19.046-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" jcr:title="FRUTAS" sling:resourceType="mysite/components/title" type="h4">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default jcr:primaryType="nt:unstructured" offset="0" width="4" />
+                                    </cq:responsive>
+                                </title>
+                                <title_1892595191 jcr:created="{Date}2022-02-18T21:12:01.005-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-18T21:12:05.032-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" jcr:title="OFERTAS COM ATÉ 50% OFF" sling:resourceType="mysite/components/title" type="h3" />
+                                <button jcr:created="{Date}2022-02-18T21:13:23.297-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-18T21:15:16.573-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" jcr:title="Ver mais" sling:resourceType="mysite/components/button" />
+                            </container>
+                            <image jcr:created="{Date}2022-02-18T21:04:56.873-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-18T21:06:41.911-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/image" fileReference="/content/dam/mysite/aprenda-os-nomes-das-frutas-em-ingles.jpg">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default jcr:primaryType="nt:unstructured" offset="0" width="2" />
+                                    <phone jcr:primaryType="nt:unstructured" offset="0" width="4" />
+                                </cq:responsive>
+                            </image>
+                        </container>
+                        <container_1546044358 jcr:created="{Date}2022-02-18T21:02:52.811-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-18T21:17:22.502-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/container" accessibilityLabel="discovery" layout="responsiveGrid">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default jcr:primaryType="nt:unstructured" offset="0" width="6" />
+                                <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
+                            </cq:responsive>
+                            <container jcr:created="{Date}2022-02-18T21:11:01.191-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-18T21:11:01.191-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/container">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default jcr:primaryType="nt:unstructured" offset="0" width="4" />
+                                    <phone jcr:primaryType="nt:unstructured" offset="0" width="8" />
+                                </cq:responsive>
+                                <title jcr:created="{Date}2022-02-18T21:04:24.865-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-18T21:09:58.931-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" jcr:title="E MAIS FRUTAS" sling:resourceType="mysite/components/title" type="h4">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default jcr:primaryType="nt:unstructured" offset="0" width="4" />
+                                    </cq:responsive>
+                                </title>
+                                <title_1986777807 jcr:created="{Date}2022-02-18T21:12:26.654-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-18T21:12:38.762-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" jcr:title="CUPOMS DE FRETE GRATIS" sling:resourceType="mysite/components/title" type="h3" />
+                                <button jcr:created="{Date}2022-02-18T21:13:34.696-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-18T21:15:20.476-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" jcr:title="Ver mais" sling:resourceType="mysite/components/button" />
+                            </container>
+                            <image jcr:created="{Date}2022-02-18T21:05:07.813-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-18T21:06:38.458-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/image" fileReference="/content/dam/mysite/32244-o-alfabeto-das-frutas-e-composto-por-uma-article_block_media-2.jpg">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default jcr:primaryType="nt:unstructured" offset="0" width="2" />
+                                    <phone jcr:primaryType="nt:unstructured" offset="0" width="4" />
+                                </cq:responsive>
+                            </image>
+                        </container_1546044358>
+                    </container>
+                    <separator jcr:created="{Date}2022-02-18T20:59:31.449-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-18T20:59:31.449-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/separator" />
+                    <fruitcomp jcr:created="{Date}2022-02-17T18:07:18.208-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-17T18:07:18.208-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/fruitcomp">
                         <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
+                            <default jcr:primaryType="nt:unstructured" offset="0" width="12" />
+                            <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
                         </cq:responsive>
-                    </teaser>
-                    <teaser_copy
-                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Epic Journey"
-                        sling:resourceType="mysite/components/teaser"
-                        actionsEnabled="false"
-                        descriptionFromPage="false"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </teaser_copy>
-                    <teaser_copy_1579324932
-                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Epic Journey"
-                        sling:resourceType="mysite/components/teaser"
-                        actionsEnabled="false"
-                        descriptionFromPage="false"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </teaser_copy_1579324932>
-                    <helloworld
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="mysite/components/helloworld"
-                        text="lalala :)"/>
+                    </fruitcomp>
                 </container>
             </container>
         </root>
     </jcr:content>
+    <product />
 </jcr:root>
