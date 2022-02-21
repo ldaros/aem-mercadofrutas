@@ -1,0 +1,142 @@
+.cmp-fruitpage--container {
+  margin: 0 1em;
+
+  @media (max-width: 768px) {
+    margin: 0;
+  }
+
+  background-color: white;
+  padding: 20px;
+
+  border-radius: 8px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  .cmp-fruitpage--img {
+    width: 100%;
+    font-size: 10em;
+    height: auto;
+    align-self: center;
+    text-align: center;
+
+    @media (max-width: 768px) {
+      font-size: 6em;
+    }
+  }
+
+  .cmp-fruitpage--title {
+    margin-bottom: 3px;
+  }
+  .cmp-fruitpage--stars {
+    margin-top: 0;
+  }
+
+  .cmp-fruitpage--price {
+    font-size: 2em;
+    font-weight: 300;
+    margin: 0;
+  }
+  .cmp-fruitpage--pricefake {
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0;
+
+    text-decoration: line-through;
+  }
+
+  .cmp-fruitpage--pricetimes {
+    color: green;
+    font-size: small;
+
+    margin: 0;
+
+    font-weight: 300;
+  }
+
+  .cmp-fruitpage--btn {
+    color: white;
+    background-color: #3483fa;
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    &:hover {
+      background-color: #11387a;
+    }
+  }
+}
+.cmp-fruitpage--comments {
+  grid-column: span 2;
+  border-top: 1px solid #bdbdbd;
+  .cmp-comment {
+    padding: 10px;
+  }
+  .cmp-comment--title {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0.5em 0;
+  }
+}
+
+.cmp-fruitpage--sub {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 26px;
+}
+
+.cmp-moreproducts {
+  border-top: 1px solid #bdbdbd;
+  grid-column: span 2;
+  margin: 20px 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+
+  // reduce columns on mobile
+  @media (max-width: 768px) {
+    .cmp-moreproducts--container {
+      grid-column: span 2;
+    }
+  }
+
+  .cmp-fruitpage--sub {
+    grid-column: span 4;
+  }
+
+  .cmp-moreproducts--container {
+    border: solid 1px #e0e0e0;
+    text-align: center;
+    padding: 20px;
+
+    cursor: pointer;
+    &:hover {
+      background-color: #688fe2;
+    }
+  }
+
+  .cmp-moreproducts--img {
+    width: 100%;
+    align-self: center;
+    font-size: 3em;
+  }
+}
+
+.cmp-description {
+  margin-top: 30px;
+  grid-column: span 2;
+
+  .cmp-description--text {
+    padding-left: 10px;
+    color: #666;
+    font-size: 20px;
+  }
+}

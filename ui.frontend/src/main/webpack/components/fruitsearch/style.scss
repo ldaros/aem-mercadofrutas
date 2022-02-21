@@ -1,0 +1,42 @@
+.cmp-fruitsearch--container {
+  position: relative;
+}
+.cmp-fruitsearch--input {
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+
+  background: url("https://api.iconify.design/carbon/search.svg") no-repeat
+    right 10px center;
+  background-size: 20px;
+
+  background-color: #fff;
+
+  border: none;
+  border-radius: 3px;
+}
+
+.cmp-fruitsearch--results {
+  position: absolute;
+  background-color: #fff;
+  padding: 0.5rem;
+  width: 100%;
+
+  .cmp-fruitsearch--result {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    cursor: pointer;
+
+    &:hover {
+      background-color: #f0f0f0;
+    }
+  }
+
+  .cmp-fruitsearch--result-img {
+    font-size: 2em;
+    margin: 0;
+    text-align: center;
+  }
+}

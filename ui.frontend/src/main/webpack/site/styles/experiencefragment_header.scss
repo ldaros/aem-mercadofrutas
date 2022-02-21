@@ -1,0 +1,45 @@
+//== XF Header style, used on page template
+
+header.experiencefragment {
+  padding: 5px 2em;
+  background-color: #fff159;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 0 0 rgb(0 0 0 / 10%);
+
+  //== Grid layout
+
+  .cmp-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .title {
+      display: inline-block;
+      font-size: 1.1em;
+      color: #200f63;
+
+      .cmp-title__link {
+        color: #200f63 !important;
+        text-decoration: none !important;
+      }
+    }
+
+    .fruitsearch {
+      width: 30%;
+    }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: flex-start;
+
+      .title {
+        margin-bottom: 5px;
+      }
+
+      .fruitsearch {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
