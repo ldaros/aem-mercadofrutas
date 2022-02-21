@@ -12,17 +12,15 @@ function init() {
 
   // para cada elemento, cria um vue
   for (let i = 0; i < divs.length; i++) {
-    // passando props, que estão em uma div
-    const textProrperty = divs[i].querySelector(
-      "[ data-cmp-hook-hellovue='property']"
-    ).textContent;
+    // get data-params on div
+    let message = divs[i].getAttribute("data-params");
 
     new Vue({
       el: divs[i],
       render: (h) =>
         h(Hello, {
           props: {
-            msg: textProrperty,
+            msg: message,
           },
         }),
     });
