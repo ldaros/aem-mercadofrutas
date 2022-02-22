@@ -10,5 +10,5 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": true
   },
-  "include": ["./src/**/*.ts", "src/main/webpack/dialogs/test.dialog.ts"]
+  "include": ["./src/**/*.ts"]
 }
