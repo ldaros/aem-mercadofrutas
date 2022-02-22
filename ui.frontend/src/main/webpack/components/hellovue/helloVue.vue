@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="hellovue--container">
     <h1>Hello from Vue!</h1>
     <p>{{ msg }}</p>
   </div>

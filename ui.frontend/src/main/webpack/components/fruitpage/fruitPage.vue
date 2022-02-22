@@ -78,6 +78,13 @@ export default {
     };
   },
 
+  props: {
+    optionalID: {
+      type: Number,
+      required: false,
+    },
+  },
+
   methods: {
     async buy(id) {
       let body = { bProducts: [id] };
@@ -88,6 +95,9 @@ export default {
     },
 
     getId() {
+      // Se o ID for passado por propriedade, usa-o
+      if (this.optionalID) return this.optionalID;
+
       const urlParams = new URLSearchParams(window.location.search);
       return urlParams.get("id");
     },
