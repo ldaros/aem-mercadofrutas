@@ -104,5 +104,3 @@ dispatcher/src/conf.d/variables/default.vars
 ui.apps/src/main/content/jcr_root/apps/mysite/clientlibs/clientlib-dependencies/
 
 ui.apps/src/main/content/jcr_root/apps/mysite/clientlibs/clientlib-site/
-
-.vscode
