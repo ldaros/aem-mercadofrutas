@@ -1,4 +1,4 @@
-import fruitPage from "../main/webpack/components/fruitpage/fruitPage.vue";
+import fruitPage from "../main/webpack/components/fruit-page/fruitPage.vue";
 
 export default {
   title: "fruitPage",

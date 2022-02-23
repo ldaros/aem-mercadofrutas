@@ -1,4 +1,4 @@
-import helloVue from "../main/webpack/components/hellovue/helloVue.vue";
+import helloVue from "../main/webpack/components/hello-vue/helloVue.vue";
 
 export default {
   title: "helloVue",

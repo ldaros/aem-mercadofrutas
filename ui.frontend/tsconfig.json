@@ -1,14 +1,18 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "es6",
+    "module": "es2015",
     "moduleResolution": "node",
     "baseUrl": "../ui.frontend",
     "removeComments": true,
+    "strict": true,
     "allowJs": true,
     "preserveConstEnums": true,
     "allowSyntheticDefaultImports": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "paths": {
+      "@/*": ["./*"]
+    }
   },
   "include": ["./src/**/*.ts"]
 }

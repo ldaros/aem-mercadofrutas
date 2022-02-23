@@ -1,4 +1,4 @@
-import fruitComp from "../main/webpack/components/fruitcomp/fruitComp.vue";
+import fruitComp from "../main/webpack/components/fruit-comp/fruitComp.vue";
 
 export default {
   title: "fruitComp",

@@ -1,4 +1,4 @@
-import fruitSearch from "../main/webpack/components/fruitsearch/fruitSearch.vue";
+import fruitSearch from "../main/webpack/components/fruit-search/fruitSearch.vue";
 
 export default {
   title: "fruitSearch",

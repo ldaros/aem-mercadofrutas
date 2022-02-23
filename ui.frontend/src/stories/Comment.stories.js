@@ -1,4 +1,4 @@
-import Comment from "../main/webpack/components/fruitpage/Comment.vue";
+import Comment from "../main/webpack/components/fruit-page/Comment.vue";
 
 export default {
   title: "Comment",

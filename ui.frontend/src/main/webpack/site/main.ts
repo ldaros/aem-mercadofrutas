@@ -5,4 +5,4 @@ import "./main.scss";
 // import "./**/*.js";
 import "../components/**/*.js";
 
-import "./vueLoader.js";
+import "../vueLoader.ts";
