@@ -1,0 +1,53 @@
+{
+  "project-settings": {
+    "code-owner": "Mercado Frutas LTDA",
+    "bundle-path": "../core/src/main/java",
+    "test-path": "../core/src/test/java",
+    "apps-path": "../ui.apps/src/main/content/jcr_root/apps",
+    "component-path": "mysite/",
+    "model-interface-pkg": "com.mysite.core.models",
+    "model-impl-pkg": "com.mysite.core.models.impl"
+  },
+
+  "name": "test-component",
+  "title": "Test Component",
+  "group": "My Site Vue - Content",
+  "type": "components",
+
+  "options": {
+    "js": false,
+    "jstxt": false,
+    "css": false,
+    "csstxt": false,
+    "html": true,
+    "html-content": true,
+    "slingmodel": true,
+    "testclass": false,
+    "junit-major-version": 5,
+    "content-exporter": true,
+    "model-adaptables": ["request"],
+    "generic-javadoc": true,
+
+    "properties": [
+      {
+        "field": "heading",
+        "label": "Titulo",
+        "type": "textfield",
+        "description": "Titulo do componente",
+        "javadoc": "Returns the heading of the component",
+        "json-expose": true,
+        "json-property": "heading"
+      },
+
+      {
+        "field": "textField",
+        "label": "Textfield Test",
+        "type": "textfield",
+        "description": "Texto do componente",
+        "javadoc": "Returns a text value used somewhere in the component",
+        "json-expose": true,
+        "json-property": "text"
+      }
+    ]
+  }
+}

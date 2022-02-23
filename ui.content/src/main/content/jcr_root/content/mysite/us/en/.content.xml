@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="cq:Page">
-    <jcr:content cq:contextHubPath="/etc/cloudsettings/default/contexthub" cq:contextHubSegmentsPath="/etc/segmentation/contexthub" cq:lastModified="{Date}2022-02-18T22:38:43.847-03:00" cq:lastModifiedBy="admin" cq:template="/conf/mysite/settings/wcm/templates/page-content" jcr:primaryType="cq:PageContent" jcr:title="en" sling:resourceType="mysite/components/page" pageTitle="My Site Vue">
+    <jcr:content cq:contextHubPath="/etc/cloudsettings/default/contexthub" cq:contextHubSegmentsPath="/etc/segmentation/contexthub" cq:lastModified="{Date}2022-02-23T16:01:49.583-03:00" cq:lastModifiedBy="admin" cq:template="/conf/mysite/settings/wcm/templates/page-content" jcr:primaryType="cq:PageContent" jcr:title="en" sling:resourceType="mysite/components/page" pageTitle="My Site Vue" pwaCachestrategy="staleWhileRevalidate" pwaDisplay="standalone" pwaOrientation="any">
         <root jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/container" layout="responsiveGrid">
             <container jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/container">
                 <title jcr:lastModified="{Date}2022-02-18T14:05:52.728-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" jcr:title="Mercado Frutas" sling:resourceType="mysite/components/title" />
                 <container jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/container" layout="responsiveGrid">
                     <image jcr:created="{Date}2022-02-18T20:28:35.351-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-18T20:59:09.917-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/image" altValueFromDAM="true" displayPopupTitle="true" fileReference="/content/dam/mysite/banner_carnaval.png" isDecorative="false" titleValueFromDAM="true" />
-                    <title jcr:created="{Date}2022-02-18T21:15:53.721-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-18T21:16:21.301-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" jcr:title="Confira" sling:resourceType="mysite/components/title" type="h2" />
+                    <title jcr:created="{Date}2022-02-18T21:15:53.721-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-22T17:44:32.927-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" jcr:title="Confira" sling:resourceType="mysite/components/title" type="h2" />
                     <container jcr:created="{Date}2022-02-18T21:02:25.132-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-18T21:02:48.383-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/container" layout="responsiveGrid">
                         <container jcr:created="{Date}2022-02-18T21:02:35.659-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-18T21:14:42.833-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/container" accessibilityLabel="discovery" layout="responsiveGrid">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -60,15 +60,13 @@
                         </container_1546044358>
                     </container>
                     <separator jcr:created="{Date}2022-02-18T20:59:31.449-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-18T20:59:31.449-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/separator" />
-                    <fruitcomp jcr:created="{Date}2022-02-17T18:07:18.208-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-17T18:07:18.208-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/fruitcomp">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default jcr:primaryType="nt:unstructured" offset="0" width="12" />
-                            <phone jcr:primaryType="nt:unstructured" offset="0" width="12" />
-                        </cq:responsive>
-                    </fruitcomp>
+                    <fruit_comp jcr:created="{Date}2022-02-23T16:01:46.565-03:00" jcr:createdBy="admin" jcr:lastModified="{Date}2022-02-23T16:01:49.570-03:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" sling:resourceType="mysite/components/fruit-comp" />
                 </container>
             </container>
         </root>
+        <image jcr:primaryType="nt:unstructured">
+            <file />
+        </image>
     </jcr:content>
     <product />
 </jcr:root>

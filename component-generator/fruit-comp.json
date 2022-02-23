@@ -1,0 +1,31 @@
+{
+  "project-settings": {
+    "code-owner": "Mercado Frutas LTDA",
+    "bundle-path": "../core/src/main/java",
+    "test-path": "../core/src/test/java",
+    "apps-path": "../ui.apps/src/main/content/jcr_root/apps",
+    "component-path": "mysite/",
+    "model-interface-pkg": "com.mysite.core.models",
+    "model-impl-pkg": "com.mysite.core.models.impl"
+  },
+
+  "name": "fruit-comp",
+  "title": "Fruit Component",
+  "group": "My Site Vue - Content",
+  "type": "components",
+
+  "options": {
+    "js": false,
+    "jstxt": false,
+    "css": false,
+    "csstxt": false,
+    "html": true,
+    "html-content": false,
+    "slingmodel": false,
+    "testclass": false,
+    "junit-major-version": 5,
+    "content-exporter": true,
+    "model-adaptables": ["request"],
+    "generic-javadoc": true
+  }
+}

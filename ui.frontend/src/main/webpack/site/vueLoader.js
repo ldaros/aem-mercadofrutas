@@ -4,10 +4,10 @@ import fruitSearch from "../components/fruitsearch/fruitSearch.vue";
 import fruitPage from "../components/fruitpage/fruitPage.vue";
 import helloVue from "../components/hellovue/helloVue.vue";
 
-const fruitCompSelector = "[data-cmp-is='fruitcomp']";
-const fruitSearchSelector = "[data-cmp-is='fruitsearch']";
-const fruitPageSelector = "[data-cmp-is='fruitpage']";
-const helloVueSelector = "[data-cmp-is='hellovue']";
+const fruitCompSelector = "[data-vue='fruit-comp']";
+const fruitSearchSelector = "[data-vue='fruit-search']";
+const fruitPageSelector = "[data-vue='fruit-page']";
+const helloVueSelector = "[data-vue='hello-vue']";
 
 async function init() {
   injectVue(fruitCompSelector, fruitComp);
